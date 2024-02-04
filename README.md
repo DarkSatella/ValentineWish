@@ -5,9 +5,10 @@
 [![Author](https://img.shields.io/badge/author-GovindCodes-green)](https://github.com/GovindCodes)
 
 
-#### [See it Live](https://govindcodes.github.io/ValentineWish/)
+#### [See it Live]([https://darksatella.github.io/ValentineWish/])
 
-## Make your own version :computer:
+## This is my own version, forked from another programmer :computer: :wink:
+## You can use mine, or edit it as your wish
 
 :camera::camera::camera::camera::camera::camera::camera:
 *Start with Smile*:smile::smile:
