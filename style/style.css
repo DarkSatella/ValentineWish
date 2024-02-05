@@ -11,8 +11,8 @@
   /* Set image as background */
   background-image: url('img/box.png');
   /* Adjust dimensions to match image size */
-  width: 150px; /* Replace with actual image width */
-  height: 80px; /* Replace with actual image height */
+  width: 980px; /* Replace with actual image width */
+  height: 980px; /* Replace with actual image height */
 
   /* Additional styling (optional) */
   cursor: pointer; /* Maintain hover effect */
