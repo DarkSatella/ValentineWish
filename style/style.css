@@ -1,3 +1,35 @@
+#myButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the button */
+
+  background-color: #f5f5f5; /* Adjust background color as needed */
+  border: 2px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+
+  /* Present box styling */
+  /* Adjust colors, dimensions, and details as desired */
+  width: 150px;
+  height: 80px;
+  background-image: linear-gradient(to top, #f5f5f5, #e5e5e5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#myButton:hover {
+  /* Add a hover effect if desired */
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#myButton.fade-out {
+  opacity: 0; /* Fade out the button */
+  transition: opacity 0.5s ease-out; /* Add a smooth fade effect */
+}
+
 html {
   box-sizing: border-box;
 }
