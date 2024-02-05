@@ -303,8 +303,6 @@ const fetchData = () => {
       });
     });
 };
-
-const button = document.getElementById('myButton');
   
 // Run fetch and animation in sequence
 const resolveFetch = () => {
