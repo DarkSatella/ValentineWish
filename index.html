@@ -11,6 +11,13 @@
     <link rel="shortcut icon" type="image/png" href="./img/heart.svg" />
     <link rel="stylesheet" href="style/style.css" />
   </head>
+$(function(){
+   $('button').click(function(){
+      $('#attrib').css({
+         color: 'red'
+      });
+   });
+});
   <script>
     function start() {
       var music = new Audio('song/song2.mp3');
