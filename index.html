@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Start Button</title> 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -17,6 +16,10 @@
     function start() {
       var music = new Audio('song/song2.mp3');
       music.play();
+    }
+  </script>
+  <body> 
+      <button onclick="start()">Start</button>
       <div class="container">
         <div class="one">
           <h1 class="one">
@@ -133,12 +136,8 @@
           <p class="last-smile">:)</p>
         </div>
       </div>
-    }
-  </script>
-  <body> 
-      <button onclick="start()">Start</button>
   </body>
-
+  
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   <script type="text/babel" src="script/main.js"></script>
