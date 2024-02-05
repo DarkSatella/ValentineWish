@@ -15,14 +15,9 @@
   </head>
   <script>
     function start() {
-      <iframe src="song/song2.mp3" autoplay="autoplay" id="audio" style="display:none" muted></iframe>
-          <audio id="player" preload="auto" autoplay="autoplay" loop>
-              <source src="song/song2.mp3" type="audio/mp3">
-          </audio>
+      var music = new Audio('song/song2.mp3');
+      music.play();
       <div class="container">
-        <!--<audio mute controls autoplay>
-          <source src="song/song2.mp3" type="audio/mp3" id="songPath">
-        </audio>...-->
         <div class="one">
           <h1 class="one">
             Hey
