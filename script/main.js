@@ -1,4 +1,5 @@
 const myButton = document.getElementById('myButton');
+const backgroundMusic = document.getElementById('backgroundMusic');
 
 myButton.addEventListener('click', () => {
   resolveFetch()
