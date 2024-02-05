@@ -311,8 +311,7 @@ const resolveFetch = () => {
   return new Promise((resolve, reject) => {
     fetchData();
     resolve("Fetch done!");
-    button.addEventListener('click', () => {startMusic().then(animationTimeline());});
   });
 };
-
 resolveFetch();
+button.addEventListener('click', () => {startMusic().then(animationTimeline());});
