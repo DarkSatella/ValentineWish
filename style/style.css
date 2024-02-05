@@ -11,8 +11,7 @@
   cursor: pointer; /* Maintain hover effect */
 }
 .present-box-container {
-  display: flex;
-  justify-content: center;
+  position: relative;
 }
 
 
