@@ -1,3 +1,14 @@
+const myButton = document.getElementById('myButton');
+
+myButton.addEventListener('click', () => {
+  resolveFetch()
+    .then(backgroundMusic.play())
+    .then(animationTimeline())
+    .then(() => {
+      myButton.classList.add('fade-out'); /* Fade out after events complete */
+    });
+});
+
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
