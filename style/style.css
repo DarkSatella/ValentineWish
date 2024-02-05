@@ -9,6 +9,8 @@
   width: 980px; /* Replace with actual image width */
   height: 980px; /* Replace with actual image height */
   cursor: pointer; /* Maintain hover effect */
+  display: flex;
+  justify-content: center;
 }
 
 #myButton:hover {
