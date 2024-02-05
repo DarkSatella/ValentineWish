@@ -1,5 +1,5 @@
 const startMusic = () => {
-  const audio = document.getElementById("backgroundMusic");
+  const audio = document.getElementByClassName("backgroundMusic");
   audio.play();
 
   // Trigger your transitions here
