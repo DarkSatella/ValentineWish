@@ -14,6 +14,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.present-box-container {
+  display: flex;
+  justify-content: center;
+}
+
 
 #myButton:hover {
   /* Add a hover effect if desired */
