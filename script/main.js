@@ -1,14 +1,3 @@
-const startMusic = () => {
-  const audio = document.getElementsByClassName("backgroundMusic")[0];
-  audio.play();
-
-  // Trigger your transitions here
-  // For example, using TweenMax:
-  TweenMax.to(".one", 1, { opacity: 1, y: 0 }); // Adjust selectors and animations as needed
-  TweenMax.to(".two", 1, { opacity: 1, y: 0 });
-  // ... (Add more transitions for other elements)
-};
-// Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
@@ -313,4 +302,3 @@ const resolveFetch = () => {
     resolve("Fetch done!");
   });
 };
-resolveFetch();
