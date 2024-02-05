@@ -314,4 +314,3 @@ const resolveFetch = () => {
   });
 };
 resolveFetch();
-button.addEventListener('click', () => {startMusic().then(animationTimeline());});
