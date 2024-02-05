@@ -6,8 +6,8 @@
   /* Hide text content */
   text-indent: 100%;
   white-space: nowrap;
-  width: 980px; /* Replace with actual image width */
-  height: 980px; /* Replace with actual image height */
+  width: 50%; /* Resize to 50% of its original width */
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
   cursor: pointer; /* Maintain hover effect */
   position: absolute;
   top: 50%;
