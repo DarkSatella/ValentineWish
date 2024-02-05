@@ -4,15 +4,11 @@
   border: none;
   padding: 0;
   /* Hide text content */
-  text-indent: 100%;
+  text-indent: 0%;
   white-space: nowrap;
   width: 98px; /* Resize to 50% of its original width */
   height: 98px; /* Adjust height automatically to maintain aspect ratio */
   cursor: pointer; /* Maintain hover effect */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .present-box-container {
   display: flex;
