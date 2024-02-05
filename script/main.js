@@ -314,3 +314,5 @@ const resolveFetch = () => {
     button.addEventListener('click', () => {startMusic().then(animationTimeline());});
   });
 };
+
+resolveFetch();
