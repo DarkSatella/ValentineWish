@@ -15,6 +15,7 @@
   height: 98px; /* Adjust height automatically to maintain aspect ratio */
   vertical-align: middle;
   horizontal-align: middle;
+  cursor: pointer;
 }
 .present-box-container {
   position: absolute;
