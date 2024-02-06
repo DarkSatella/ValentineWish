@@ -21,7 +21,6 @@
 
 #myButton:hover {
   /* Add a hover effect if desired */
-  transform: scale(1.01);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
