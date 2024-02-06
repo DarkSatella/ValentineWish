@@ -15,7 +15,10 @@
     <!-- button id="myButton" onclick="resolveFetch().then(backgroundMusic.play()).then(animationTimeline())">Start</button -->
      <div class="present-box-container">
         <button id="myButton">
-          <img src="img/box1.png" id="myImg">
+          <img id="myImg">
+            <source srcset="img/box1.png" media="(max-width: 600px)">
+            <source srcset="img/box2.png" media="(max-width: 1500px)">
+          </img>
         </button>
       </div>
       <div class="container">
