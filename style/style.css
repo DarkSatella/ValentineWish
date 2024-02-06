@@ -9,6 +9,7 @@
   width: 98px; /* Resize to 50% of its original width */
   height: 98px; /* Adjust height automatically to maintain aspect ratio */
   vertical-align: middle;
+  horizontal-align: middle;
 }
 .present-box-container {
   position: absolute;
