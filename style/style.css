@@ -8,7 +8,6 @@
   white-space: nowrap;
   width: 98px; /* Resize to 50% of its original width */
   height: 98px; /* Adjust height automatically to maintain aspect ratio */
-  cursor: pointer; /* Maintain hover effect */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16,12 +15,6 @@
 }
 .present-box-container {
   position: relative;
-}
-
-
-#myButton:hover {
-  /* Add a hover effect if desired */
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 #myButton.fade-out {
