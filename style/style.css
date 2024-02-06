@@ -8,10 +8,7 @@
   white-space: nowrap;
   width: 98px; /* Resize to 50% of its original width */
   height: 98px; /* Adjust height automatically to maintain aspect ratio */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  vertical-align: middle;
 }
 .present-box-container {
   position: relative;
