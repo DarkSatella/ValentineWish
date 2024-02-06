@@ -24,7 +24,7 @@
   transform: translate(-50%, -50%);
 }
 
-#myButton:hover {
+#myImg:hover {
   /* Add a hover effect if desired */
   transform: scale(1.01);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
