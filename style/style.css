@@ -1,9 +1,9 @@
 #myButton {
-  /* Remove default button styles
+  /* Remove default button styles */
   background: none;
   border: none;
   padding: 0;
-  Hide text content */
+  /*Hide text content */
   text-indent: 0%;
   white-space: nowrap;
   width: 98px; /* Resize to 50% of its original width */
