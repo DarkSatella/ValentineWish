@@ -15,12 +15,14 @@
   vertical-align: middle;
   horizontal-align: middle;
   cursor: pointer;
+  z-index: 2;
 }
 .present-box-container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 #myImg:hover {
