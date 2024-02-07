@@ -10,6 +10,10 @@ myButton.addEventListener('click', () => {
     });
 });
 
+backgroundMusic.addEventListener('ended', () => {
+  backgroundMusic.play(); // Loop the music
+});
+
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
