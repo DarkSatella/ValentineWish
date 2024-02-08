@@ -112,7 +112,14 @@ body {
   border-radius: 5px;
   padding: 10px;
   position: relative;
-  color: #FFFFFF;  
+}
+
+.four .text-box .hbd-chatbox {
+  color: #FFFFFF;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }
 
 .text-box p {
