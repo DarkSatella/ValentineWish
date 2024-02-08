@@ -1,3 +1,10 @@
+@media screen and (max-width: 768px) {
+  .text-box .fake-btn {
+    padding: 0.3em 0.6em;
+    font-size: 0.8rem;
+  }
+}
+
 #myImg {
   width: 98px;
   height: 98px;
