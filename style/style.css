@@ -117,15 +117,11 @@ body {
 .text-box p {
   margin: 0;
   text-align: left;
+  color: white;
 }
 
 .text-box span {
   visibility: hidden;
-}
-
-.text-box p {
-  color: white;
-}
 
 .text-box .fake-btn {
   position: absolute;
