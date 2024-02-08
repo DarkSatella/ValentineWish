@@ -112,6 +112,8 @@ body {
   border-radius: 5px;
   padding: 10px;
   position: relative;
+  background-color: #FFFFFF;
+  
 }
 
 .text-box p {
