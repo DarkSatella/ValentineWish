@@ -1,3 +1,7 @@
+.hbd-chatbox span {
+  color: white;
+}
+
 #myImg {
   width: 98px;
   height: 98px;
@@ -121,6 +125,7 @@ body {
 
 .text-box span {
   visibility: hidden;
+}
 
 .text-box .fake-btn {
   position: absolute;
