@@ -10,10 +10,6 @@ myButton.addEventListener('click', async () => { // Use async for Promise handli
   myButton.classList.add('fade-out');
 });
 
-pausedButton.addEventListener('click', () => {
-  tl.paused() ? tl.resume() : tl.pause();
-});
-
 backgroundMusic.addEventListener('ended', () => {
   backgroundMusic.play(); // Loop the music
 });
@@ -46,6 +42,10 @@ const animationTimeline = () => {
   };
 
   const tl = new TimelineMax();
+  
+pausedButton.addEventListener('click', () => {
+  tl.paused() ? tl.resume() : tl.pause();
+});
 
   tl.to(".container", 0.1, {
     visibility: "visible",
