@@ -127,8 +127,8 @@ body {
 .text-box .fake-btn {
   position: relative;
   width: 50px;
+  top: 100px;
   right: -75%;
-  bottom: 20%;
   /*right: 5px;
   bottom: 5px;*/
   color: #fff;
