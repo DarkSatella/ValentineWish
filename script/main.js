@@ -2,6 +2,7 @@ const myButton = document.getElementById('myButton');
 const backgroundMusic = document.getElementById('backgroundMusic');
 
 
+
 myButton.addEventListener('click', async () => { // Use async for Promise handling
   await resolveFetch(); // Await the Promise
   backgroundMusic.play();
