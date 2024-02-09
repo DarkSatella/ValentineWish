@@ -1,15 +1,6 @@
 const myButton = document.getElementById('myButton');
 const backgroundMusic = document.getElementById('backgroundMusic');
 
-let requestId = null;
-
-function stopAnimations() {
-  if (requestId) {
-    cancelAnimationFrame(requestId);
-  }
-  requestId = requestAnimationFrame(stopAnimations);
-}
-
 myButton.addEventListener('click', () => {
   resolveFetch()
     .then(backgroundMusic.play())
