@@ -1,5 +1,6 @@
 const myButton = document.getElementById('myButton');
 const backgroundMusic = document.getElementById('backgroundMusic');
+const pausedButton = document.getElementById('pausedButton');
 let paused = false;
 
 
