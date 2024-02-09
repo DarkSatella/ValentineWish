@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.paused {
+  animation-play-state: paused;
+}
+
+
 #myImg {
   width: 98px;
   height: 98px;
@@ -55,10 +60,6 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
-}
-
-.body .paused {
-  animation-play-state: paused;
 }
 
 #light-pink-overlay {
