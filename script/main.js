@@ -1,6 +1,5 @@
 const myButton = document.getElementById('myButton');
 const backgroundMusic = document.getElementById('backgroundMusic');
-const pausedButton = document.getElementById('pausedButton');
 
 
 myButton.addEventListener('click', async () => { // Use async for Promise handling
@@ -43,10 +42,6 @@ const animationTimeline = () => {
 
   const tl = new TimelineMax();
   
-  pausedButton.addEventListener('click', () => {
-    tl.paused() ? tl.resume() : tl.pause();
-  });
-
   tl.to(".container", 0.1, {
     visibility: "visible",
   })
