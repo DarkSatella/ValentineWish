@@ -15,11 +15,6 @@ pausedButton.addEventListener('click', () => {
   paused = !paused; // Update paused state
 });
 
-const running = animationTimeline.style.animationPlayState === 'running';
-paused.addEventListener('click', () => {
-  animationTimeline.style.animationPlayState = running ? 'paused' : 'running';
-});
-
 backgroundMusic.addEventListener('ended', () => {
   backgroundMusic.play(); // Loop the music
 });
