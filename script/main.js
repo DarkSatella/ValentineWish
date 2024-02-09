@@ -43,9 +43,9 @@ const animationTimeline = () => {
 
   const tl = new TimelineMax();
   
-pausedButton.addEventListener('click', () => {
-  tl.paused() ? tl.resume() : tl.pause();
-});
+  pausedButton.addEventListener('click', () => {
+    tl.paused() ? tl.resume() : tl.pause();
+  });
 
   tl.to(".container", 0.1, {
     visibility: "visible",
