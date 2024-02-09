@@ -10,9 +10,9 @@ myButton.addEventListener('click', () => {
     });
 });
 
-const running = element.style.animationPlayState === 'running';
+const running = animationTimeline.style.animationPlayState === 'running';
 paused.addEventListener('click', () => {
-  element.style.animationPlayState = running ? 'paused' : 'running';
+  animationTimeline.style.animationPlayState = running ? 'paused' : 'running';
 });
 
 backgroundMusic.addEventListener('ended', () => {
