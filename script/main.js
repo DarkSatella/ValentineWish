@@ -1,13 +1,18 @@
 const myButton = document.getElementById('myButton');
 const backgroundMusic = document.getElementById('backgroundMusic');
+let paused = false;
 
-myButton.addEventListener('click', () => {
-  resolveFetch()
-    .then(backgroundMusic.play())
-    .then(animationTimeline())
-    .then(() => {
-      myButton.classList.add('fade-out'); /* Fade out after events complete */
-    });
+
+myButton.addEventListener('click', async () => { // Use async for Promise handling
+  await resolveFetch(); // Await the Promise
+  backgroundMusic.play();
+  animationTimeline();
+  myButton.classList.add('fade-out');
+});
+
+pausedButton.addEventListener('click', () => {
+  tl.paused() ? tl.resume() : tl.pause(); // Toggle pause/resume
+  paused = !paused; // Update paused state
 });
 
 const running = animationTimeline.style.animationPlayState === 'running';
