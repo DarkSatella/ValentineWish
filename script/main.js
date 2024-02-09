@@ -1,7 +1,6 @@
 const myButton = document.getElementById('myButton');
 const backgroundMusic = document.getElementById('backgroundMusic');
 const pausedButton = document.getElementById('pausedButton');
-let paused = false;
 
 
 myButton.addEventListener('click', async () => { // Use async for Promise handling
@@ -12,8 +11,7 @@ myButton.addEventListener('click', async () => { // Use async for Promise handli
 });
 
 pausedButton.addEventListener('click', () => {
-  tl.paused() ? tl.resume() : tl.pause(); // Toggle pause/resume
-  paused = !paused; // Update paused state
+  tl.paused() ? tl.resume() : tl.pause();
 });
 
 backgroundMusic.addEventListener('ended', () => {
