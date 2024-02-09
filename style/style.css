@@ -56,6 +56,11 @@ body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+.body .paused {
+  animation-play-state: paused;
+}
+
 #light-pink-overlay {
   position: fixed;
   top: 0;
