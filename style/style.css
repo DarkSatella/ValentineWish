@@ -1,10 +1,11 @@
 /* Target the slideshow container */
-/*
+
 .slideshow {
   width: 100%; /* Allow full width within the parent element */
   height: 300px; /* Customize height as needed */
   overflow: hidden; /* Prevent images from overflowing */
   position: relative; /* Enable positioning for absolute child elements */
+  visibility: hidden; /*   TURN ON AND OFF FOR EDITTING PURPOSES   */
 }
 
 /* Style individual slide images */
@@ -40,7 +41,6 @@
 .slideshow.fade img:first-child {
   opacity: 1; /* Show the first slide with full opacity */
 }
-*/
 
 /* Additional styles as needed */
 
