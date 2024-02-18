@@ -5,7 +5,6 @@
   height: 300px; /* Customize height as needed */
   overflow: hidden; /* Prevent images from overflowing */
   position: relative; /* Enable positioning for absolute child elements */
-  visibility: hidden; /*   TURN ON AND OFF FOR EDITTING PURPOSES   */
 }
 
 /* Style individual slide images */
@@ -15,6 +14,7 @@
   object-fit: cover; /* Ensure images fill the available space while maintaining aspect ratio */
   position: absolute; /* Position each image absolutely within the container */
   transition: transform 0.5s ease-in-out; /* Smooth transitions between slides */
+  visibility: hidden; /*   TURN ON AND OFF FOR EDITTING PURPOSES   */
 }
 
 /* Initially hide all slides except the first one */
