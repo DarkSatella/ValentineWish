@@ -3,6 +3,7 @@ const backgroundMusic = document.getElementById('backgroundMusic');
 const slideContainer = document.querySelector('.slideshow');
 const slides = slideContainer.querySelectorAll('img');
 
+/*
 let slideIndex = 0;
 function showSlides() {
   for (let i = 0; i < slides.length; i++) {
@@ -13,8 +14,10 @@ function showSlides() {
   if (slideIndex >= slides.length) { slideIndex = 0; }
 }
 
+
 showSlides(); // Start the slideshow
 setInterval(showSlides, 2000); // Change slides every 2 seconds
+*/
 
 
 myButton.addEventListener('click', async () => { // Use async for Promise handling
