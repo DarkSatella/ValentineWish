@@ -1,48 +1,4 @@
-/* Target the slideshow container */
 
-.slideshow {
-  width: 100%; /* Allow full width within the parent element */
-  height: 300px; /* Customize height as needed */
-  overflow: hidden; /* Prevent images from overflowing */
-  position: relative; /* Enable positioning for absolute child elements */
-}
-
-/* Style individual slide images */
-.slideshow img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure images fill the available space while maintaining aspect ratio */
-  position: absolute; /* Position each image absolutely within the container */
-  transition: transform 0.5s ease-in-out; /* Smooth transitions between slides */
-  visibility: hidden; /*   TURN ON AND OFF FOR EDITTING PURPOSES   */
-}
-
-/* Initially hide all slides except the first one */
-.slideshow img:first-child {
-  transform: translateX(0); /* Position the first slide at the origin */
-}
-
-/* Position other slides outside the viewable area initially */
-.slideshow img:not(:first-child) {
-  transform: translateX(100%); /* Move out to the right, off-screen */
-}
-
-/* Add styles for navigation buttons (optional) */
-.slideshow .prev, .slideshow .next {
-  /* ... styling for navigation buttons ... */
-}
-
-/* Add styles for other animation options (optional) */
-.slideshow .fade {
-  opacity: 0; /* Start faded (hidden) */
-  transition: opacity 0.5s ease-in-out;
-}
-
-.slideshow.fade img:first-child {
-  opacity: 1; /* Show the first slide with full opacity */
-}
-
-/* Additional styles as needed */
 
 .text-box .fake-btn {
   position: absolute;
