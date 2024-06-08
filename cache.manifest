@@ -1,13 +1,13 @@
 CACHE MANIFEST
 # version 1.00
-style.css
+style/style.css
 img/*.*
 song/Shania_Yan-Sunshine_in_the_Rain_(Official_Lyric_Video).mp3
 song/*.mp3
-style/index.html
-style/customize.json
-style/my_jquery.js
-style/package-lock.json
-style/package.json
+index.html
+customize.json
+my_jquery.js
+package-lock.json
+package.json
 script/main.js
 #all other files
