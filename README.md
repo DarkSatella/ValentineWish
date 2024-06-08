@@ -1,14 +1,8 @@
-<h1 align="center">
-    Valentine's Wish
-</h1>
-
-[![Author](https://img.shields.io/badge/author-GovindCodes-green)](https://github.com/GovindCodes)
-
 
 #### [See it Live]([https://darksatella.github.io/ValentineWish/])
 
-## This is my own version, forked from another programmer :computer: :wink:
-## You can use mine, or edit it as your wish
+## This is my own version, inspired by another programmer :computer: :wink:
+## You can use mine, or edit it as you wish
 
 :camera::camera::camera::camera::camera::camera::camera:
 *Start with Smile*:smile::smile:
@@ -21,9 +15,9 @@
 
 ## Contributing
 
-If you have any idea to make it more interesting, feel free to send a PR, or create an issue for a feature request.
+If you have any ideas to make it more interesting, feel free to send a PR, or create an issue for a feature request.
 
 Stay happy and keep the people you care about happy. :)
 
 #### OwnerShip
- The animations used in the Repository is created by Afiur Rahman Fahim(faahim).:smile:
+ The animations used in the Repository are created by me(DarkSatella) and Afiur Rahman Fahim(faahim).:smile:
