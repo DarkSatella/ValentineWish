@@ -20,4 +20,5 @@ If you have any ideas to make it more interesting, feel free to send a PR, or cr
 Stay happy and keep the people you care about happy. :)
 
 #### OwnerShip
- The animations used in the Repository are created by me(DarkSatella) and Afiur Rahman Fahim(faahim).:smile:
+ The animations used in the Repository are created by GovindCodes and Afiur Rahman Fahim(faahim).
+ The codes are then refined, edited and added new features by DarkSatella.
