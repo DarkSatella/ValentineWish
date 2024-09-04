@@ -2,7 +2,6 @@ CACHE MANIFEST
 # version 1.09
 style/style.css
 img/vy.jpg
-song/mainSong.mp3
 customize.json
 my_jquery.js
 package-lock.json
