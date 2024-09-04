@@ -298,8 +298,9 @@ const fetchData = () => {
       Object.keys(data).map((customData) => {
         if (data[customData] !== "") {
           if (customData === "imagePath") {
-            document.getElementById(customData)
-            document.setAttribute("src", data[customData]);
+            document
+              .getElementById(customData)
+              .setAttribute("src", data[customData]);
           } else {
             document.getElementById(customData).innerText = data[customData];
           }
